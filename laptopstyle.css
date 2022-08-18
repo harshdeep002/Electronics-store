@@ -1,0 +1,177 @@
+
+body{
+     background-color: black;
+     color: white;
+     
+ }
+ @font-face {
+    font-family: myFirstFont;
+    src: url(GothamBook.ttf);
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 2000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      
+      
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @font-face {
+    font-family: myFirstFont;
+    src: url(GothamBook.ttf);
+  }
+    
+
+  .trending{
+    display: flex;
+    justify-content:center;
+    margin: 50px;
+    
+  }
+  .trending img{
+    height: 180px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+
+  .boxes{
+    height:auto;
+    width: 240px;
+    background:#1E1E1E;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container3{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 40px;
+    
+    
+}
+.shopBy{
+    display: flex;
+    justify-content: center;
+}
+.shopBy img{
+    height: 130px;
+    width: 240px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.chooseOS{
+    display: flex;
+    justify-content:center;
+    
+}
+.chooseOS img{
+ height: 250px;
+ width: 350px;
+ margin: 10px;
+}
+
+.social{
+    display: flex;
+      margin-left: 140px;
+    list-style:none ;
+  
+  }
+  .social-item a{
+    font-size:30px;
+    color: red;
+    padding:10px;
+    
+  }
+  .social-item1 a{
+    color: rgb(47, 8, 185);
+    font-size:30px;
+    padding:6px;
+  
+  
+  
+  }
+  .social-item2 a{
+    color: rgb(194, 14, 14);
+    font-size:30px;
+    padding:6px;
+  
+  
+  }
+  .social-item3 a img{
+    
+    height: 30px;
+    margin-top: 4px;
+  
+  }
+  .social-item4 a{
+    color: rgb(35, 65, 199);
+    font-size:30px;
+    padding:6px;
+  }
+  .social-item5 a{
+    color: rgb(35, 65, 199);
+    font-size:30px;
+    padding:6px;
+    
+  }
+
+  .links{
+    width: 100%;
+    background-color: #1d1d1d;
+    height: 250px;
+    padding: 50px 0px;
+  }
+  .links p{
+    color: white;
+    padding-left: 30px;
+    font-family: myFirstFont;
+    font-size: 1rem;
+      line-height: 1.3;
+      
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .15rem;
+  }
+
+  .inputfooter{
+    margin-left: 30px;
+    margin-top:-1px;
+    padding:14px 44px 14px 22px;
+    border-radius: 0.8rem;
+    border: 0.1rem solid transparent;
+    
+  }
+
+  button{
+    margin-left:-50px;
+    color: #FFFFFF;
+    
+    
+  }
+   button i{
+    color:#1d1d1d;
+    size: 16px;
+  }
