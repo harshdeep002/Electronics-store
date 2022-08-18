@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+         .box {
+          height: 280px;
+          width: 400px;
+          
+          
+          margin-top: 110px;
+          
+          font-weight: bold;
+          font-size:20px;
+         
+         border: 5px solid white;
+            
+            
+
+           
+
+            
+          }
+         .signUP{
+        
+            
+            
+            color:white;
+           
+            border-radius:100cm;
+           
+            font-size:larger;
+            
+            
+            
+            display:inline;
+
+
+          }
+          body{
+           
+            color: white;
+            background-image: url('https://coolhdwall.com/storage/202101/abstract-background-4k-wallpaper-5120x2160.jpg');
+        background-size: cover;
+           
+          }
+          .submit{
+            border-radius:100em;
+           
+            font-weight: bold;
+            padding: 0.5em;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: blanchedalmond;
+            
+          }
+          input[type="text"]{
+            border-radius: 50px;
+            border: solid black;
+          }
+          input[type="email"]{
+            border-radius: 50px;
+            border: solid black;
+          }
+          input[type="password"]{
+            border-radius: 50px;
+            border: solid black;
+          }
+          input[type="number"]{
+            border-radius: 50px;
+            border: solid black;
+          }
+          header{
+            background-color: black;
+            margin-top: -10px;
+            margin-left: 1.3cm;
+          }
+    
+        </style>
+    </head>
+    <body >
+      <header >
+        <a href="HOME.html"><img src="logo.png" style="height:40px"></a>
+      <a href="">  <img src="logo2.png" style="height:60px;margin-left:25cm;"></a>
+       <a href=""> <img src="cart.png" style="height: 60px;"></a>
+       </header>
+
+      <center>
+      <div class="box">
+              <form >
+                    
+        <div class="signUP">Sign Up</div><br><br>
+       
+            
+            <label for="fname" ><i>&nbsp;&nbsp;Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+            <input type="text" id="fname"><br><br>
+
+            <label for="emailID"><i>Email id:&nbsp;&nbsp;</i></label>
+            <input type="email" id="emailID"><br><br>
+
+            
+            <label for="pwd"><i>Password:&nbsp;</i></label>
+            <input type="password" id="pwd"><br><br>
+
+           
+            <label for="phoneNO"><i>Contact No.</i></label>
+            <input type="number" id="phoneNO"><br><br>
+            <input type="submit" value="Submit" class="submit" id="submit123" onclick="myFunc()">
+          </div>
+        </form>
+      </center>
+    </body>
+    <script>
+       function myFunc(){
+         alert("DETAILS SAVED SUCCESFULLY....")
+       }
+    </script>
+</html>
